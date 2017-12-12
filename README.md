@@ -18,11 +18,13 @@ Some preliminary information and data:
 - http://reprap.org/wiki/Geeetech_GT2560
 
 From Youtube discussion (Salander - How to make your 3D printer smart and silent with the TMC2130!)
-- "Hello! I have a GT2560(revA+) and i'm planning to upgrade X and Y axle only. Unfortunately 
+- By Balint Radocz:
+  - "Hello! I have a GT2560(revA+) and i'm planning to upgrade X and Y axle only. Unfortunately 
 cs_x {video} goes to the SD card's cs on the Geeetech board (cs_y {video} is on a female header 
 of the second stepper driver which is free so its ok). My question is what to modify in Marlin if 
 i would like to keep SD-reader working? (using a another pin on atmega chip may be ok as well)"
-- "Details: cs_x{video} is on DigitalPin53 (19. physical pin on atmega) which is on SD reader and 
+  - "Details: cs_x{video} is on DigitalPin53 (19. physical pin on atmega) which is on SD reader and 
 cs_y{video} goes to DigitalPin49 (35. physical pin on atmega) which is free. As an option i'm 
 thinking about DigitalPin48 (36. physical) which would be perfect as being lead to another free 
 female header. The problem is that i'm not that pro on Marlin."
+  - https://www.youtube.com/watch?v=sPvTB3irCxQ&lc=z23lf3ipouj5sdperacdp432krmtta1zwyvkfs43cj1w03c010c.1513010458996674
